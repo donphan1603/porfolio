@@ -1,0 +1,17 @@
+.menu-item___title {
+  color: #fff;
+  text-transform: uppercase;
+  transition: 300ms;
+  z-index: -10;
+  width: 0;
+  transform: translate(120px);
+  opacity: 0;
+  
+}
+
+.menu-item:hover .menu-item___title {
+  width: 160px;
+  transform: translate(0);
+  opacity: 1;
+  background-color: #ffb400;
+}
